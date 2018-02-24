@@ -15,6 +15,8 @@ https://ics.media/entry/16329
 2. `npm run build`の実行。`build/bundle.js`ができることを確認
 3. index.htmlでbundle.jsを読み込ませてhello worldがでることを確認
 
+## テストコード作成
+
 
 ## その他備考
 ### npmとかnodeのアップデート

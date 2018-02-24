@@ -4,7 +4,7 @@
   "description": "practice typescript",
   "scripts": {
     "test": "test",
-    "build":"webpack"
+    "build": "webpack"
   },
   "author": "k5jp1015",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "awesome-typescript-loader": "^3.4.1",
     "source-map-loader": "^0.2.3",
     "typescript": "^2.7.2",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "mocha": "^5.0.1"
   }
 }
