@@ -16,6 +16,25 @@ https://ics.media/entry/16329
 3. index.htmlでbundle.jsを読み込ませてhello worldがでることを確認
 
 ## テストコード作成
+### 参考サイト
+http://blog.shibayu36.org/entry/2016/04/12/180000
+
+### やりたいこと
+ユニットテスト自体もTypeScriptで書いて、テストコードを実行したい
+
+### Typingsの導入
+#### Typingsとは
+TypeScriptの方定義ファイルを管理するツール
+- https://qiita.com/literalice/items/d83249a5646abcb0bec6
+
+#### なぜ導入するのか
+- Typeスクリプトの型定義ファイルをnpmやbowerからインストールする事ができる
+- gulp等のタスクランナーでTypingsを用いたスクリプトを記述することで、型定義ファイルのインストールタスクを記述、実行することもできる
+
+### Mochaの導入
+- https://mochajs.org/
+
+1. `package.json`の`devDependencies`にmochaを追加して、`npm install`を実行する
 
 
 ## その他備考
