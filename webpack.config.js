@@ -1,6 +1,6 @@
 module.exports = {
     // メインとなJavascriptファイル（エントリーポイント）
-    entry: '.src/main.ts',
+    entry: './src/main.ts',
     
     // ファイルの出力設定
     output: {

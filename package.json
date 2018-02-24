@@ -2,10 +2,9 @@
   "name": "try_typescript",
   "version": "1.0.0",
   "description": "practice typescript",
-  "main": "index.js",
   "scripts": {
     "test": "test",
-    "build":"build"
+    "build":"webpack"
   },
   "author": "k5jp1015",
   "license": "ISC",
