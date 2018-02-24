@@ -33,8 +33,13 @@ TypeScriptの方定義ファイルを管理するツール
 
 ### Mochaの導入
 - https://mochajs.org/
+#### Mochaとは
+- テストフレームワークの一つ
+- itとかdescribeとか書くやつ
 
 1. `package.json`の`devDependencies`にmochaを追加して、`npm install`を実行する
+2. typingsを用いて、mochaで使えるTypeScriptの型ファイルをインストールする  
+	`typings install dt~mocha --global --save`
 
 
 ## その他備考
