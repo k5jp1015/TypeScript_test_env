@@ -51,16 +51,40 @@ TypeScriptの方定義ファイルを管理するツール
 - Mochaがテストフレームワークならば、ChaiはAssetionライブラリ
 - assertオブジェクトを提供するライブラリ
 
+- [ユニットテストって何?って人向けのmochaとchaiの使い方](https://qiita.com/y_hokkey/items/f73ea6b3d5f6902396b6)
+
 #### インストール
 1. `package.json`の`devDependencies`にchaiを追加して、`npm install`を実行する
 2. mochaと同様にtypingsを用いて、chai型義ファイルをインストールする  
 	`typings install dt~mocha --global --save`
+
+### Karmaの導入
+- https://karma-runner.github.io/0.13/index.html
+
+#### Karmaとは
+- ブラウザ上で単体テストを実行するためのテストランナー  
+	以下のようなことができるらしい
+	- テスト実行前にTypeScriptをコンパイル
+	- CLIでテストを実行
+	- ファイルの変更監視や結果のレポートを出力してくれたり
+
+- [Step by Stepで始めるKarma](https://qiita.com/howdy39/items/b9d704e7f84053924da3)
+
+#### インストール
+1. npmでkarmaのインストール実行  
+	`$ npm install karma --save-dev`
+
+2. npｍでkarma-chrome-launcherのインストール実行  
+	`$ npm install karma-chrome-launcher --save-dev`
 
 
 
 ## その他備考
 ### npmとかnodeのアップデート
 https://qiita.com/bumptakayuki/items/3921256a31ce47386e1b
+
+### npm install ~~ --save-dev
+- --save-devを記載することによって、インストールしたパッケージがpackage.jsonに反映されるようにする
 
 
 This package has installed:
