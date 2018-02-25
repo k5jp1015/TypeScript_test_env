@@ -77,6 +77,10 @@ TypeScriptの方定義ファイルを管理するツール
 2. npｍでkarma-chrome-launcherのインストール実行  
 	`$ npm install karma-chrome-launcher --save-dev`
 
+#### karmaの設定
+1. `karma init`の実行して、`karma.conf.js`を作成する
+2. `karma.conf.js`にテストファイルの場所を指定する
+
 
 
 ## その他備考
