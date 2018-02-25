@@ -31,15 +31,31 @@ TypeScriptの方定義ファイルを管理するツール
 - Typeスクリプトの型定義ファイルをnpmやbowerからインストールする事ができる
 - gulp等のタスクランナーでTypingsを用いたスクリプトを記述することで、型定義ファイルのインストールタスクを記述、実行することもできる
 
+#### 参考サイト
+[TypeScript + Webpackのはまったところ](http://tenderfeel.xsrv.jp/javascript/2283/)
+
 ### Mochaの導入
 - https://mochajs.org/
 #### Mochaとは
 - テストフレームワークの一つ
 - itとかdescribeとか書くやつ
 
+#### インストール
 1. `package.json`の`devDependencies`にmochaを追加して、`npm install`を実行する
-2. typingsを用いて、mochaで使えるTypeScriptの型ファイルをインストールする  
+2. typingsを用いて、mocha型義ファイルをインストールする  
 	`typings install dt~mocha --global --save`
+
+### Chaiの導入
+- http://chaijs.com/
+#### Chaiとは
+- Mochaがテストフレームワークならば、ChaiはAssetionライブラリ
+- assertオブジェクトを提供するライブラリ
+
+#### インストール
+1. `package.json`の`devDependencies`にchaiを追加して、`npm install`を実行する
+2. mochaと同様にtypingsを用いて、chai型義ファイルをインストールする  
+	`typings install dt~mocha --global --save`
+
 
 
 ## その他備考
